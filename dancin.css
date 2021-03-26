@@ -1,0 +1,73 @@
+.u-section-1 {
+  background-image: url("images/IMG_20210111_192007.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 700px;
+}
+
+.u-section-1 .u-video-1 {
+  width: 879px;
+  height: 495px;
+  margin: 115px auto 60px;
+}
+
+.u-section-1 .embed-responsive-1 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  top: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 577px;
+  }
+
+  .u-section-1 .embed-responsive-1 {
+    left: -39%;
+    top: -39%;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 520px;
+  }
+
+  .u-section-1 .u-video-1 {
+    width: 720px;
+    height: 573px;
+  }
+
+  .u-section-1 .embed-responsive-1 {
+    height: 178%;
+    width: 178%;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-video-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 442px;
+  }
+
+  .u-section-1 .u-video-1 {
+    width: 340px;
+    height: 495px;
+  }
+
+  .u-section-1 .embed-responsive-1 {
+    height: 100%;
+    width: 259%;
+    left: -79%;
+    top: 0%;
+  }
+}

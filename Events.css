@@ -1,0 +1,118 @@
+.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/EvK9EyFXIAcJzef.jfif");
+  background-position: 50% 50%;
+  background-size: 145%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 50vw;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  margin: 40px 444px 0 485px;
+}
+
+.u-section-1 .u-gallery-1 {
+  height: 364px;
+  grid-gap: 17px 17px;
+  margin-top: 66px;
+  margin-bottom: 60px;
+}
+
+.u-section-1 .u-gallery-inner-1 {
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 17px;
+}
+
+.u-section-1 .u-back-slide-1 {
+  transition-duration: 1.5s;
+}
+
+.u-section-1 .u-over-slide-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  transition-duration: 1.5s;
+  padding: 20px;
+}
+
+.u-section-1 .u-back-slide-2 {
+  transition-duration: 1.5s;
+}
+
+.u-section-1 .u-over-slide-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  transition-duration: 1.5s;
+  padding: 20px;
+}
+
+.u-section-1 .u-back-slide-3 {
+  transition-duration: 1.5s;
+}
+
+.u-section-1 .u-over-slide-3 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  transition-duration: 1.5s;
+  padding: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 385px;
+    margin-right: 344px;
+    margin-bottom: 60px;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    height: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 275px;
+    margin-right: 234px;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    height: 689px;
+  }
+
+  .u-section-1 .u-gallery-inner-1 {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 185px;
+    margin-right: 144px;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    height: 1550px;
+  }
+
+  .u-section-1 .u-gallery-inner-1 {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 {
+    background-size: auto 145%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 1141px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 144px;
+    margin: 32px auto 0;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    height: 976px;
+    margin-top: 34px;
+  }
+}
